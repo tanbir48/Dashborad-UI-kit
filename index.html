@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/calenderstyle.css" />
+    <link rel="stylesheet" href="css/Responsive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Dashboard Ui Kit</title>
+  </head>
+  <body>
+    <div class="Main-body">
+      <section class="my-task" id="my-task">
+        <div class="task-item">
+          <div class="task">
+            <span><i class="fas fa-tasks"></i></span>
+            <h3><a href="#">MyTask</a></h3>
+          </div>
+          <div class="task">
+            <span><i class="fas fa-chalkboard-teacher"></i></span>
+            <p><a href="#">Dashboard</a></p>
+          </div>
+          <div class="task">
+            <span><i class="fas fa-file-powerpoint"></i></span>
+            <p><a href="#">Jobs</a></p>
+          </div>
+          <div class="task">
+            <span><i class="far fa-calendar"></i></span>
+            <p><a href="#">Schedule</a></p>
+          </div>
+          <div class="task">
+            <span><i class="fas fa-users"></i></span>
+            <p><a href="#">Community</a></p>
+          </div>
+          <div class="task">
+            <span><i class="fas fa-envelope"></i></span>
+            <p><a href="#">Message</a></p>
+          </div>
+          <div class="task">
+            <span><i class="far fa-file-alt"></i></span>
+            <p><a href="#">Document</a></p>
+          </div>
+          <div class="task">
+            <span><i class="fas fa-sign-out-alt"></i></span>
+            <p><a href="#">Logout</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="dashboard">
+        <nav>
+          <span id="mobile-button"><i class="fas fa-bars"></i></span>
+          <h2>Dashboard</h2>
+          <form>
+            <input type="text" placeholder="Search Task" />
+            <span><i class="fas fa-search"></i></span>
+          </form>
+          <div class="profile">
+            <span><i class="fas fa-bell"></i></span>
+            <div class="profile-text">
+              <p>Christofer Parker</p>
+              <p>FrontEnd Developer</p>
+            </div>
+            <img src="img/user2.jpg" width="20" height="25 alt="" />
+            
+          </div>
+        </nav>
+        <div class="dashboard-body">
+          <div class="dashboard-middle-item">
+            <div class="image-text">
+              <div class="image-text-img">
+                <img src="img/banner3.jpg" alt="" />
+              </div>
+              <div class="image-text-text">
+                <h2>Hi Christofer Parker!</h2>
+                <p>
+                  Welcome to your event calender. Here you can see all of the
+                  upcoming meetings events and create new one
+                </p>
+              </div>
+            </div>
+            <div class="schedule-task">
+              <div class="inner-schedule-task">
+                <p style="font-size: 12px;">Schedule Task</p>
+                <div class="date-box">
+                  <p>7-15 Augest, 2020</p>
+                  <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Weak<i style="padding-left: 8px; font-size:10px" class="fas fa-chevron-down"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">Month</a>
+                      <a href="#">Year</a>
+                    </div>
+                  </div>
+                  <div class="icon">
+                    <span><i class="fas fa-chevron-left"></i></i></span>
+                    <span><i class="fas fa-chevron-right"></i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- calender -->
+            <div id="calendar-wrap">
+              <header>
+              </header>
+              <div id="calendar">
+                <ul class="weekdays">
+                  <div class="dateandweekdays">
+                    <li>Sun<br/>7</li>
+                
+                  </div>
+                  <div class="dateandweekdays">
+                    <li>Mon<br/>7</li>
+               
+                  </div>
+                  <div class="dateandweekdays">
+                    <li>Tue<br/>7</li>
+                
+                  </div>
+                  <div class="dateandweekdays">
+                    <li>Wed<br/>7</li>
+                 
+                  </div>
+                  <div class="dateandweekdays">
+                    <li>Thus<br/>7</li>
+                
+                  </div>
+                  <div class="dateandweekdays">
+                    <li>Fri<br/>7</li>
+                  
+                  </div>
+                  <div class="dateandweekdays">
+                    <li>Sat</li>
+                  
+                  </div>   
+                </ul>
+
+                <!-- Days from previous month -->
+
+                <ul class="days">
+                  <li class="day other-month">
+                 
+                  </li>
+                  <li class="day other-month">
+                  
+                   
+                  </li>
+                  <li class="day other-month">
+                
+                  </li>
+                  <li class="day other-month">
+                  
+                  </li>
+                  <li class="day other-month">
+                 
+                  </li>
+
+                  <!-- Days in current month -->
+
+                  <li class="day">
+                 
+                  </li>
+                  <li class="day">
+                   
+                  </li>
+                </ul>
+
+                <!-- Row #2 -->
+
+                <ul class="days">
+                  <li class="day">
+                  
+                  </li>
+                  <li class="day">
+                    
+                  </li>
+                  <li class="day">
+                 
+                  </li>
+                  <li class="day" style="background-color: #b7ecf0;">
+                    <div class="event">
+                      <div class="event-desc">Development Project meetup</div>
+                      <div class="event-time">6:00pm to 8:30pm</div>
+                    </div>
+                  </li>
+                  <li class="day">
+                  
+      
+                  </li>
+                  <li class="day">
+                   
+                  </li>
+                  <li class="day">
+                  
+                  </li>
+                </ul>
+
+                <!-- Row #3 -->
+
+                <ul class="days">
+                  <li class="day">
+                  
+                  </li>
+                  <li class="day" style="background-color: #d2caf9;">
+                    <div class="event">
+                      <div class="event-desc">Development Project meetup</div>
+                      <div class="event-time">6:00pm to 8:30pm</div>
+                    </div>
+                  </li>
+                  <li class="day">
+                
+                  </li>
+                  <li class="day">
+                  
+                  </li>
+                  <li class="day">
+                  
+                   
+                  </li>
+                  <li class="day" style="background-color: #b7ecf0;">
+                    <div class="event">
+                      <div class="event-desc">Board Meeting</div>
+                      <div class="event-time">1:00pm to 3:00pm</div>
+                    </div>
+                  </li>
+                  <li class="day">
+                  
+                  </li>
+                </ul>
+
+                <!-- Row #4 -->
+
+                <ul class="days">
+                  <li class="day">
+                   
+                  </li>
+                  <li class="day">
+                 
+                  </li>
+                  <li class="day">
+                  
+                  </li>
+                  <li class="day" style="background-color: #fcced0;"> 
+                    <div class="event">
+                      <div class="event-desc">Conference call</div>
+                      <div class="event-time">9:00am to 12:00pm</div>
+                    </div>
+                  </li>
+                  <li class="day">
+                  
+                  </li>
+                  <li class="day">
+                  
+                  
+                  </li>
+                  <li class="day">
+               
+                  </li>
+                </ul>
+
+                <!-- Row #5 -->
+
+                <ul class="days">
+                  <li class="day">
+                
+                  </li>
+                  <li class="day" style="background-color: #fad7d1;">
+                
+                    <div class="event">
+                      <div class="event-desc">Conference Call</div>
+                      <div class="event-time">1:00pm to 3:00pm</div>
+                    </div>
+                  </li>
+                  <li class="day">
+                   
+                  </li>
+                  <li class="day">
+                    
+                  </li>
+                  <li class="day">
+                  
+                  </li>
+                  <li class="day" style="background-color: #cac2f1;">
+                    <div class="event">
+                      <div class="event-desc">Conference Call</div>
+                      <div class="event-time">1:00pm to 3:00pm</div>
+                    </div>
+                  </li>
+                  <li class="day">
+                   
+                  </li>
+                </ul>
+
+                <!-- Row #6 -->
+
+                <ul class="days">
+                  <li class="day">
+                 
+                  </li>
+                  <li class="day other-month">
+                  
+                    <!-- Next Month -->
+                  </li>
+                  <li class="day other-month">
+                  
+                  </li>
+                  <li class="day other-month">
+                 
+                  </li>
+                  <li class="day other-month">
+                  
+                  </li>
+                  <li class="day other-month">
+                  
+                  </li>
+                  <li class="day other-month">
+                   
+                  </li>
+                </ul>
+              </div>
+              <!-- /. calendar -->
+            </div>
+            <!-- /. wrap -->
+
+            <!-- End -->
+          </div>
+
+          <div class="notification">
+            <button>Create New Task</button>
+            <div class="notification-task">
+              <h5>Priority Tasks</h5>
+              <a href="">View all</a>
+            </div>
+            <p>Monday,8 Augest 2020</p>
+            <div class="task-box">
+              <p>Project Design Meeting</p>
+              <span>08.00-02.00pm</span>
+              <div class="image">
+                <img src="img/team1.jpg" alt=""/>
+                <img src="img/team2.jpeg" alt=""/>
+                <img src="img/team3.jpeg" alt=""/>
+                <img src="img/team4.jpeg" alt=""/>
+              </div>
+            </div>
+            <div class="task-box">
+              <p>Architect App Client Call</p>
+              <span>10.00-10.15pm</span>
+              <div class="image">
+                <img src="img/team1.jpg" alt=""/>
+                <img src="img/team2.jpeg" alt=""/>
+                <img src="img/team3.jpeg" alt=""/>
+                <img src="img/team4.jpeg" alt=""/>
+              </div>
+            </div>
+            <div class="task-box">
+              <p>Development Health Websites</p>
+              <span>07.00-07.30pm</span>
+              <div class="image">
+                <img src="img/team1.jpg" alt=""/>
+                <img src="img/team2.jpeg" alt=""/>
+                <img src="img/team3.jpeg" alt=""/>
+                <img src="img/team4.jpeg" alt=""/>
+              </div>
+            </div>
+            <div class="task-box">
+              <p>Project Design Meeting</p>
+              <span>08.00-02.00pm</span>
+              <div class="image">
+                <img src="img/team1.jpg" alt=""/>
+                <img src="img/team2.jpeg" alt=""/>
+                <img src="img/team3.jpeg" alt=""/>
+                <img src="img/team4.jpeg" alt=""/>
+              </div>
+            </div>
+            <div class="task-box">
+              <p>Doctor Websites Client Call</p>
+              <span>09.00-10.00pm</span>
+              <div class="image">
+                <img src="img/team1.jpg" alt=""/>
+                <img src="img/team2.jpeg" alt=""/>
+                <img src="img/team3.jpeg" alt=""/>
+                <img src="img/team4.jpeg" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

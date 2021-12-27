@@ -1,0 +1,429 @@
+@media (max-width: 1295.98px) {
+}
+
+@media (max-width: 1199.98px) {
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text {
+    width: 47%;
+  }
+}
+@media (max-width: 1130px) {
+  .dashboard .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+  }
+  .dashboard-body .image-text .image-text-img img {
+    border-radius: 38%;
+    width: 210px;
+    height: 150px;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text p {
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 1.5rem;
+    color: white;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text h2 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1040px) {
+  .dashboard-body .image-text .image-text-img img {
+    border-radius: 38%;
+    width: 170px;
+    height: 137px;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text h2 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 18px;
+  }
+  .notification button {
+    padding: 10px 33px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    min-width: 180px;
+    background-color: #6e4ff2;
+    margin-bottom: 15px;
+    border: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .dashboard-body .dashboard-middle-item .image-text {
+    align-items: center;
+    display: flex;
+    padding: 18px;
+    border-radius: 16px;
+    justify-content: space-between;
+    margin-right: 20px;
+    background-color: #6e4ff2;
+  }
+  .notification button {
+    padding: 10px 33px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    min-width: 165px;
+    background-color: #6e4ff2;
+    margin-bottom: 15px;
+    border: none;
+  }
+}
+@media (max-width: 899px) {
+  .dashboard .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 33%;
+  }
+  .dashboard-body .dashboard-middle-item .image-text {
+    align-items: center;
+    display: flex;
+    padding: 11px;
+    border-radius: 16px;
+    justify-content: space-between;
+    margin-right: 20px;
+    background-color: #6e4ff2;
+  }
+  .notification button {
+    padding: 10px 33px;
+    border-radius: 20px;
+    color: white;
+    font-size: 8px;
+    min-width: 132px;
+    background-color: #6e4ff2;
+    margin-bottom: 15px;
+    border: none;
+  }
+  item .image-text .image-text-text h2 {
+    padding-bottom: 6px;
+    color: white;
+    font-size: 15px;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text p {
+    max-width: 100%;
+    font-size: 11px;
+    line-height: 1.2rem;
+    color: white;
+  }
+  .dashboard-body .image-text .image-text-img img {
+    border-radius: 38%;
+    width: 130px;
+    height: 117px;
+  }
+}
+
+@media (max-width: 768px) {
+  .my-task {
+    display: flex;
+  }
+  .Main-body .task-item .task p a {
+    text-decoration: none;
+    padding-left: 6px;
+    color: #6e4ff2;
+    font-size: 9px;
+  }
+  .Main-body .task-item .task span {
+    margin-right: 20px;
+    width: 5%;
+    align-items: center;
+    font-size: 10px;
+    color: #6e4ff2;
+    margin-top: 5px;
+  }
+  .Main-body .dashboard nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Main-body .task-item .task {
+    display: flex;
+    padding: 5px;
+    align-items: center !important;
+    justify-content: centers;
+    margin-bottom: 0px;
+  }
+  .Main-body .task-item .task:hover {
+    background-color: #6e4ff2;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  nav h2 {
+    font-size: 14px;
+  }
+  .schedule-task {
+    padding: 5px;
+  }
+  .inner-schedule-task p {
+    font-size: 9px !important;
+  }
+  .inner-schedule-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .date-box .dropbtn {
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none;
+    font-size: 9px;
+    color: white;
+    background-color: #7a5cf0;
+  }
+  .date-box span {
+    border: 1px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 3px 8px;
+    font-size: 8px;
+  }
+  .date-box span:nth-of-type(2) {
+    border: 1px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 3px 8px;
+    font-size: 8px;
+  }
+  .dashboard .profile p {
+    font-size: 8px;
+    padding-right: 5px;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text h2 {
+    padding-bottom: 10px;
+    color: white;
+    font-size: 14px;
+  }
+  .dashboard-body .image-text .image-text-img img {
+    border-radius: 38%;
+    width: 100px;
+    height: 88px;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text p {
+    max-width: 100%;
+    font-size: 10px;
+    line-height: 1rem;
+    color: white;
+  }
+  .notification {
+    background-color: #ffffff;
+    padding: 8px;
+    width: 30%;
+    border-radius: 10px;
+  }
+  .notification-task h5 {
+    padding-bottom: 15px;
+    font-size: 8px;
+  }
+  .notification-task a {
+    text-decoration: none;
+    font-size: 8px;
+  }
+  .notification p {
+    font-size: 9px;
+  }
+  .notification .task-box {
+    margin-top: 20px;
+    background-color: #d3cbfa;
+    padding: 4px;
+    border-radius: 6px;
+  }
+  .notification .task-box p {
+    padding-bottom: 10px;
+    font-size: 8px;
+  }
+  .notification .task-box span {
+    font-size: 8px;
+  }
+  .notification .task-box .image img {
+    border-radius: 50%;
+    width: 15px;
+    height: 14px;
+    margin-left: -10px;
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 660px) {
+  .dashboard-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notification {
+    background-color: #ffffff;
+    padding: 8px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashboard nav #mobile-button {
+    display: block;
+  }
+  .my-task {
+    display: none;
+  }
+
+  .my-task.show {
+    display: flex !important;
+    flex-direction: column;
+  }
+  body {
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  .notification {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 8px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .Main-body {
+    display: block;
+  }
+  .Main-body .dashboard {
+    width: 100%;
+  }
+  nav h2 {
+    font-size: 14px;
+    display: none;
+  }
+  .dashboard .profile {
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 33%;
+  }
+  .dashboard-body .dashboard-middle-item .image-text {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 16px;
+    justify-content: space-between;
+    margin-right: 20px;
+    background-color: #6e4ff2;
+    margin-bottom: 15px;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .dashboard-body .image-text .image-text-img img {
+    border-radius: 38%;
+    width: 150px;
+    height: 100px;
+  }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text {
+    width: 100%;
+    text-align: center;
+  }
+  .notification button {
+    padding: 10px 33px;
+    border-radius: 20px;
+    color: white;
+    font-size: 11px;
+    min-width: 162px;
+    background-color: #6e4ff2;
+    margin-bottom: 15px;
+    border: none;
+  }
+  .notification {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .notification-task h5 {
+    padding-bottom: 15px;
+    font-size: 13px;
+  }
+  .notification-task a {
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .notification p {
+    font-size: 15px;
+  }
+  .notification .task-box {
+    margin-top: 20px;
+    background-color: #d3cbfa;
+    padding: 16px;
+    border-radius: 6px;
+  }
+  .notification .task-box .image img {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 0px;
+    margin-right: 4px;
+  }
+  .notification .task-box p {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .notification .task-box span {
+    font-size: 15px;
+  }
+  .notification .task-box .image {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  #calendar-wrap {
+    margin-right: 0px;
+  }
+  .inner-schedule-task p {
+    font-size: 12px !important;
+    margin-bottom: 10px;
+  }
+  .inner-schedule-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .date-box .dropbtn {
+    padding: 5px 18px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none;
+    font-size: 11px;
+    color: white;
+    background-color: #7a5cf0;
+  }
+  .days {
+    margin-bottom: 20px !important;
+  }
+  .Main-body .task-item .task p a {
+    text-decoration: none;
+    padding-left: 6px;
+    color: #6e4ff2;
+    font-size: 11px;
+  }
+  .Main-body .task-item .task span {
+    margin-right: 20px;
+    width: 5%;
+    align-items: center;
+    font-size: 12px;
+    color: #6e4ff2;
+    margin-top: 5px;
+  }
+}
