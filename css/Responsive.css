@@ -338,6 +338,9 @@
     width: 100%;
     text-align: center;
   }
+  .dashboard-body .dashboard-middle-item .image-text .image-text-text p {
+    font-size: 12px;
+  }
   .notification button {
     padding: 10px 33px;
     border-radius: 20px;
