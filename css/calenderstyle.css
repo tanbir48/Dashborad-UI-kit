@@ -22,7 +22,7 @@
   display: block;
   float: left;
   width: 14.342%;
-  padding: 5px;
+  padding: 3px;
   box-sizing: border-box;
   border: 1px solid rgba(204, 204, 204, 0.445);
   margin-right: -1px;
@@ -41,6 +41,7 @@
   padding: 10px 6px;
   color: black;
   font-size: 13px;
+  font-weight: 600;
 }
 
 #calendar .days li {
@@ -68,14 +69,14 @@
   display: block;
   font-size: 13px;
   border-radius: 4px;
-  padding: 5px;
+  padding: 2px;
   line-height: 14px;
   color: #009aaf;
   text-decoration: none;
 }
 
 #calendar .event-desc {
-  color: #666;
+  color: black;
   margin: 3px 0 7px 0;
   text-decoration: none;
 }
@@ -83,6 +84,10 @@
 #calendar .other-month {
   background: #f5f5f5;
   color: #666;
+}
+
+.event-time {
+  color: black;
 }
 
 /* ============================

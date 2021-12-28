@@ -30,6 +30,31 @@ body {
   justify-content: centers;
   margin-bottom: 25px;
 }
+
+.Main-body .task-item .task-head {
+  display: flex;
+  padding: 6px;
+  align-items: center !important;
+  justify-content: centers;
+  margin-bottom: 25px;
+}
+.Main-body .task-item .task-head a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding-left: 6px;
+  font-weight: 700;
+}
+.Main-body .task-item .task-head span {
+  padding: 6px;
+  background-color: #6e4ff2;
+  border-radius: 3px;
+  color: white;
+}
+
+.Main-body .task-item .task-head h3 {
+  padding-left: 6px;
+}
 .task a {
   text-decoration: none;
   color: black;
@@ -41,9 +66,11 @@ body {
 }
 .Main-body .task-item .task:hover {
   background-color: #6e4ff2;
-  padding: 6px;
   border-radius: 10px;
   color: #ffffff;
+}
+.Main-body .task-item .task p a {
+  font-weight: 500;
 }
 .Main-body .task-item .task:hover p a {
   color: #ffffff;
@@ -55,6 +82,7 @@ body {
   margin-right: 20px;
   width: 5%;
   align-items: center;
+  padding: 6px;
   color: #6e4ff2;
   margin-top: 5px;
 }
@@ -94,7 +122,7 @@ body {
 .dashboard nav form span {
   position: absolute;
   color: white;
-  padding: 4px;
+  padding: 5px;
   font-size: 10px;
   border-radius: 4px;
   transform: translate(-22px, 4px);
@@ -137,7 +165,7 @@ body {
   width: 34%;
 }
 .dashboard-body .image-text .image-text-img img {
-  border-radius: 38%;
+  border-radius: 40%;
   width: 250px;
   height: 190px;
 }
@@ -169,7 +197,7 @@ body {
   border-radius: 20px;
   color: white;
   font-size: 12px;
-  min-width: 210px;
+  min-width: 230px;
   background-color: #6e4ff2;
   margin-bottom: 15px;
   border: none;
@@ -182,9 +210,13 @@ body {
 .notification-task a {
   text-decoration: none;
   font-size: 13px;
+  font-weight: 500;
 }
 .notification-task h5 {
   padding-bottom: 15px;
+}
+.notification p {
+  padding-top: 15px;
 }
 .notification .task-box {
   margin-top: 20px;
@@ -237,8 +269,11 @@ body {
 /* End */
 
 /* style for schedule task */
-.schedule-task {
-  padding: 10px 20px;
+.inner-schedule-task {
+  padding: 20px 20px;
+}
+.schedule-task p {
+  font-weight: 600;
 }
 .inner-schedule-task {
   display: flex;
@@ -305,6 +340,7 @@ body {
   border: 1px solid;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  border-color: rgba(0, 0, 0, 0.411);
 
   padding: 6px 10px;
   font-size: 8px;
@@ -316,6 +352,7 @@ body {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   padding: 6px 10px;
+  border-color: rgba(0, 0, 0, 0.411);
   font-size: 8px;
 }
 /* End */
