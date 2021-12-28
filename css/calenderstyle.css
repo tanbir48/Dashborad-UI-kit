@@ -90,9 +90,9 @@
   color: black;
 }
 
-/* ============================
+/* 
 				Mobile Responsiveness
-   ============================*/
+*/
 
 @media (max-width: 768px) {
   #calendar .weekdays,

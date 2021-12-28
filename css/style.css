@@ -19,7 +19,7 @@ body {
 .Main-body .my-task {
   min-width: 12%;
   background-color: #e0e2f1;
-  border-top-left-radius: 6px;
+
   padding: 10px;
 }
 
@@ -103,7 +103,6 @@ body {
 .dashboard {
   background-color: #f2f3f7;
   padding: 19px;
-  border-top-right-radius: 6px;
 }
 .dashboard nav {
   padding-bottom: 28px;
@@ -176,6 +175,7 @@ body {
   padding-bottom: 20px;
   color: white;
   font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
 }
 .dashboard-body .dashboard-middle-item .image-text .image-text-text p {
   max-width: 80%;
