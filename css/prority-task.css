@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+.prority-task {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+}
+
+.task-box {
+  margin: 10px;
+  width: 42%;
+  background-color: #d3cbfa;
+  padding: 15px;
+  border-radius: 6px;
+}
+.task-box .image {
+  display: flex;
+  margin-top: 10px;
+}
+.task-box .image img:nth-of-type(1) {
+  margin-left: 0px;
+}
+.task-box .image img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-right: 4px;
+}
+.task-box:nth-of-type(3) {
+  margin-top: 20px;
+  background-color: #fed4d5;
+  padding: 15px;
+  border-radius: 6px;
+}
+.task-box:nth-of-type(4) {
+  margin-top: 20px;
+  background-color: #bfeff3;
+  padding: 15px;
+  border-radius: 6px;
+}
+.task-box:nth-of-type(4) {
+  margin-top: 20px;
+  background-color: #fcd2d3;
+  padding: 15px;
+  border-radius: 6px;
+}
+n p {
+  font-size: 12px;
+}
+.task-box p {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.task-box span {
+  font-size: 18px;
+}
+/* End */
+
+/* Responsive */
+
+@media (max-width: 660px) {
+  .prority-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .task-box {
+    width: 70%;
+  }
+}

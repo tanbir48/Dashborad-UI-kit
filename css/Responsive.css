@@ -259,6 +259,14 @@
 }
 
 @media (max-width: 660px) {
+  .Main-body .my-task {
+    display: block;
+    position: fixed;
+    left: -45%;
+    min-width: 12%;
+    background-color: #e0e2f1;
+    padding: 10px;
+  }
   .dashboard-body {
     display: flex;
     flex-direction: column;
@@ -277,8 +285,12 @@
   .dashboard nav #mobile-button {
     display: block;
   }
-  .my-task {
-    display: none;
+  #mobile-cross-button {
+    display: block;
+  }
+  .dashboard {
+    background-color: #f2f3f7;
+    padding: 8px;
   }
 
   .my-task.show {
@@ -297,7 +309,7 @@
     border-radius: 10px;
   }
   .Main-body {
-    display: block;
+    display: flex;
   }
   .Main-body .dashboard {
     width: 100%;
@@ -425,9 +437,7 @@
   .date-box span:nth-of-type(2) {
     border-color: rgba(0, 0, 0, 0.411);
   }
-  .days {
-    margin-bottom: 20px !important;
-  }
+
   .Main-body .task-item .task p a {
     text-decoration: none;
     padding-left: 6px;
