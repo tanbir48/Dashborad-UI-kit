@@ -96,10 +96,9 @@
     margin-bottom: -1px;
   }
 } */
-
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   #calendar .event-desc {
-    font-size: 7px !important;
+    font-size: 9px !important;
     color: #666;
     margin: 3px 0 7px 0;
     text-decoration: none;
@@ -107,7 +106,26 @@
   #calendar .event {
     clear: both;
     display: block;
-    font-size: 8px;
+    font-size: 9px;
+    border-radius: 4px;
+    padding: 2px;
+    line-height: 14px;
+    color: #009aaf;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #calendar .event-desc {
+    font-size: 9px !important;
+    color: #666;
+    margin: 3px 0 7px 0;
+    text-decoration: none;
+  }
+  #calendar .event {
+    clear: both;
+    display: block;
+    font-size: 9px;
     border-radius: 4px;
     padding: 2px;
     line-height: 14px;
