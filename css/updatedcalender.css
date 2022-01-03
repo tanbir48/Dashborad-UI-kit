@@ -99,7 +99,7 @@
 
 @media (max-width: 576px) {
   #calendar .event-desc {
-    font-size: 7px;
+    font-size: 7px !important;
     color: #666;
     margin: 3px 0 7px 0;
     text-decoration: none;

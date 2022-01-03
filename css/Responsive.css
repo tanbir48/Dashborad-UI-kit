@@ -308,6 +308,15 @@
     width: 100%;
     border-radius: 10px;
   }
+  .Main-body .my-task {
+    display: block;
+    position: fixed;
+    left: -45%;
+    min-width: 12%;
+    background-color: #e0e2f1;
+    padding: 10px;
+    z-index: 3;
+  }
   .Main-body {
     display: flex;
   }

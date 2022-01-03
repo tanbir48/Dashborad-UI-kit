@@ -33,6 +33,7 @@ body {
   padding: 6px;
   align-items: center !important;
   justify-content: centers;
+ 
   margin-bottom: 25px;
 }
 
@@ -40,7 +41,7 @@ body {
   display: flex;
   padding: 6px;
   align-items: center !important;
-  justify-content: centers;
+  justify-content: space-between;
   margin-bottom: 25px;
 }
 #mobile-cross-button {
@@ -121,10 +122,10 @@ body {
 }
 .dashboard nav input {
   padding: 10px;
-  border-radius: 8px;
-  font-size: 10px;
+  border-radius: 20px;
+  font-size: 11px;
   outline: none;
-  min-width: 180px;
+  min-width: 210px;
   border: none;
 }
 .dashboard nav form span {
@@ -133,7 +134,7 @@ body {
   padding: 5px;
   font-size: 10px;
   border-radius: 4px;
-  transform: translate(-22px, 4px);
+  transform: translate(-30px, 4px);
   background-color: #6e4ff2;
 }
 
